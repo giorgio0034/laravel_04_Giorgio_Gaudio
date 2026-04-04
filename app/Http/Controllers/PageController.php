@@ -12,6 +12,13 @@ class PageController extends Controller
             return view('home');
         }
 
+    public function servizi()
+
+    {
+
+return view('servizi');
+}
+
 
 
 
@@ -49,3 +56,4 @@ class PageController extends Controller
         return view('indice',['cards'=>$cards]);
     }
 }
+

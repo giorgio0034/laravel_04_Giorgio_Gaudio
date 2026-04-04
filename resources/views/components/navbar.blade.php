@@ -1,11 +1,5 @@
 
 
-
-
-
-
-
-
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="{{ route('blog.home') }}">Navbar</a>
@@ -21,7 +15,7 @@
           <a class="nav-link" href="{{ route('blog.index') }}">Chi-siamo</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="/Servizi">Servizi</a>
+          <a class="nav-link" href="{{route('blog.servizi')}}">Servizi</a>
         </li>
 
       </ul>
@@ -32,3 +26,4 @@
     </div>
   </div>
 </nav>
+

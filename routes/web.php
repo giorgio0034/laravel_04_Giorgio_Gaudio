@@ -6,4 +6,5 @@ use \App\Http\Controllers\PageController;
 
 Route::get('/', [PageController::class, 'home'])->name('blog.home');
 Route::get('/Pagina-indice', [PageController::class, 'index'])->name('blog.index');
+Route::get('/Servizi', [PageController::class, 'servizi'])->name('blog.servizi');
 

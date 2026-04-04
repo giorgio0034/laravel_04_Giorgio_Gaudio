@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-
-@vite(['resources/css/app.css', 'resources/js/app.js'])
-
-
-
-
-</head>
-<body>
-
-
+<x-layout>
 <div class="container-fluid bg-body-secondary vh-100 bg-background">
     <div class="row justify-content-center align-items-center h-100">
         <div class="col-12">
@@ -34,6 +18,8 @@
         <div class="card-body">
             <h5 class="card-title"></h5>
             <p class="card-text"></p>
+            <button class="btn btn-primary">Test </button>
+
 
         </div>
     </div>
@@ -46,6 +32,8 @@
         <div class="card-body">
             <h5 class="card-title"></h5>
             <p class="card-text"></p>
+        <button class="btn btn-primary">Test </button>
+
 
         </div>
     </div>
@@ -69,7 +57,7 @@
         <div class="card-body">
             <h5 class="card-title"></h5>
             <p class="card-text"></p>
-            <a href="" class="btn btn-primary">Vai al dettaglio</a>
+            <a href="" class="btn btn-primary">test</a>
         </div>
     </div>
 </div>
@@ -88,6 +76,7 @@
 
 
 
+</x-layout>
 
 
 
@@ -104,29 +93,4 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<?php
 
